@@ -7,3 +7,7 @@ def disemvowel(string):
 
 test = disemvowel("In English it is important to know that there is a difference between a vowel sound and")
 print(test)
+
+Or in one line :
+
+return "".join([char for char in x if char not in "aeiouAEIOU"])
