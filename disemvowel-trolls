@@ -1,0 +1,9 @@
+def disemvowel(string):
+    res = []
+    for a in string:
+        if a not in "aeiouAEIOU":
+            res.append(a)
+    return "".join(res)
+
+test = disemvowel("In English it is important to know that there is a difference between a vowel sound and")
+print(test)
